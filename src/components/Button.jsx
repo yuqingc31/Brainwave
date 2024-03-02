@@ -14,7 +14,7 @@ const Button = ({ className, href, onClick, children, px, white }) => {
 
   // click on the button and navigate to the link
   const renderLink = () => (
-    <a href={href} className={spanClasses}>
+    <a href={href} className={classes}>
       <span className={spanClasses}>{children}</span>
       {ButtonSvg(white)}
     </a>
